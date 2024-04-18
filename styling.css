@@ -1,0 +1,66 @@
+body {
+    background-image: url(toDo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+ul li button{
+    background-color: #63924d;
+border: none;
+color: white;
+padding: 5px 11px;
+text-align: center;
+font-size: 14px;
+margin: 4px 5px;
+transition: 0.3s;
+display: inline-block;
+text-decoration: none;
+cursor: pointer;
+border-radius: 15px;
+}
+.removeButton{
+    background-color: #e8eee6;
+border: none;
+color: rgb(7, 7, 7);
+padding: 5px 11px;
+text-align: center;
+font-size: 14px;
+margin: 4px 5px;
+transition: 0.3s;
+display: inline-block;
+text-decoration: none;
+cursor: pointer;
+border-radius: 15px;
+}
+.addButton {
+    background-color: #71bcc6;
+border: none;
+color: white;
+padding: 5px 50px;
+text-align: center;
+font-size: 14px;
+display: inline-block;
+text-decoration: none;
+cursor: pointer;
+border-radius: 5px;
+}
+.heading{
+    text-align: center; color: rgb(68, 68, 106);font-family: 'Brush Script MT', cursive;font-size: 80px;font-weight : 100;
+}
+.heading2{
+    text-align: center; color: rgb(0, 0, 0);font-family: 'Brush Script MT', cursive;font-size:40px ;font-weight : 3;
+    margin-top: 0%;
+    padding: none;
+}
+.listcontainer {display: inline-block;font-size: large; font-style: italic; text-align: left;
+}
+.mainContainer {
+    max-width: 540px;
+    background: rgb(255, 255, 255);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+ul li.strikeTask {
+    text-decoration: line-through;
+}
